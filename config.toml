@@ -1,6 +1,7 @@
 baseurl = "https://yuchiki.github.io/cli-guidelines/"
 staticDir = ["assets"]
 publishDir = "docs"
+canonifyurls = true
 
 [markup]
   [markup.goldmark]
