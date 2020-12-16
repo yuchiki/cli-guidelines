@@ -5,7 +5,7 @@
 
 An [open-source](https://github.com/cli-guidelines/cli-guidelines) guide to help you write better command-line programs, taking traditional UNIX principles and updating them for the modern day.
 
-## Authors {#authors}
+## 著者 {#authors}
 
 **Aanand Prasad** \
 Engineer at Squarespace, co-creator of Docker Compose. \
@@ -30,7 +30,7 @@ Design by [Mark Hurrell](https://mhurrell.co.uk/). Thanks to Andreas Jansson for
 [Join us on Discord](https://discord.gg/EbAW5rUCkE) if you want to discuss the guide or CLI design.
 
 
-## Foreword {#foreword}
+## はしがき {#foreword}
 
 In the 1980s, if you wanted a personal computer to do something for you, you needed to know what to type when confronted with `C:\>` or `~$`.
 Help came in the form of thick, spiral-bound manuals.
@@ -73,7 +73,7 @@ Inspired by traditional UNIX philosophy, driven by an interest in encouraging a 
 
 Long live the command line!
 
-## Introduction {#introduction}
+## 序論 {#introduction}
 
 This document covers both high-level design philosophy, and concrete guidelines.
 It’s heavier on the guidelines because our philosophy as practitioners is not to philosophize too much.
@@ -93,7 +93,7 @@ Who is this guide for?
 - If you are designing an immersive, full-screen CLI port of Minecraft, this guide isn’t for you.
   (But we can’t wait to see it!)
 
-## Philosophy {#philosophy}
+## 哲学 {#philosophy}
 
 These are what we consider to be the fundamental principles of good CLI design.
 
@@ -235,7 +235,7 @@ Do so with intention and clarity of purpose.
 
 > “Abandon a standard when it is demonstrably harmful to productivity or user satisfaction.” — Jef Raskin, [The Humane Interface](https://en.wikipedia.org/wiki/The_Humane_Interface)
 
-## Guidelines {#guidelines}
+## ガイドライン {#guidelines}
 
 This is a collection of specific things you can do to make your command-line program better.
 
@@ -1161,7 +1161,7 @@ Examples of projects that collect usage statistics:
 
 _Further reading: [Open Source Metrics](https://opensource.guide/metrics/)_
 
-## Further reading
+## 参考文献
 
 - [The Unix Programming Environment](https://en.wikipedia.org/wiki/The_Unix_Programming_Environment), Brian W. Kernighan and Rob Pike
 - [POSIX Utility Conventions](https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap12.html)
