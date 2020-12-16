@@ -1,4 +1,5 @@
 # 訳者前置き
+こちらは [Command Line Interface Guidelines](https://clig.dev/)を翻訳する予定の場所。一度読み通し、forewordだけ訳してみて、訳せそうなら著者にdiscordで許可をもらい、翻訳するつもり。
 
 
 # Command Line Interface Guidelines

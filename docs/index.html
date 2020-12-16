@@ -39,10 +39,10 @@
     <button id="menu-button">Contents</button>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#authors">Authors</a></li>
-    <li><a href="#foreword">Foreword</a></li>
-    <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#philosophy">Philosophy</a>
+    <li><a href="#authors">著者</a></li>
+    <li><a href="#foreword">はしがき</a></li>
+    <li><a href="#introduction">序論</a></li>
+    <li><a href="#philosophy">哲学</a>
       <ul>
         <li><a href="#human-first-design">Human-first design</a></li>
         <li><a href="#simple-parts-that-work-together">Simple parts that work together</a></li>
@@ -55,7 +55,7 @@
         <li><a href="#chaos">Chaos</a></li>
       </ul>
     </li>
-    <li><a href="#guidelines">Guidelines</a>
+    <li><a href="#guidelines">ガイドライン</a>
       <ul>
         <li><a href="#the-basics">The Basics</a></li>
         <li><a href="#help">Help</a></li>
@@ -74,15 +74,16 @@
         <li><a href="#analytics">Analytics</a></li>
       </ul>
     </li>
-    <li><a href="#further-reading">Further reading</a></li>
+    <li><a href="#参考文献">参考文献</a></li>
   </ul>
 </nav>
 
     <main>
         <h1 id="訳者前置き">訳者前置き</h1>
+<p>こちらは <a href="https://clig.dev/">Command Line Interface Guidelines</a>を翻訳する予定の場所。一度読み通し、forewordだけ訳してみて、訳せそうなら著者にdiscordで許可をもらい、翻訳するつもり。</p>
 <h1 id="command-line-interface-guidelines">Command Line Interface Guidelines</h1>
 <p>An <a href="https://github.com/cli-guidelines/cli-guidelines">open-source</a> guide to help you write better command-line programs, taking traditional UNIX principles and updating them for the modern day.</p>
-<h2 id="authors">Authors</h2>
+<h2 id="authors">著者</h2>
 <p><strong>Aanand Prasad</strong><br>
 Engineer at Squarespace, co-creator of Docker Compose.<br>
 <a href="https://twitter.com/aanandprasad">@aanandprasad</a></p>
@@ -98,7 +99,7 @@ Technical Writer at Squarespace, O’Reilly contributor.<br>
 <p>Design by <a href="https://mhurrell.co.uk/">Mark Hurrell</a>. Thanks to Andreas Jansson for early contributions, and Andrew Reitz, Ashley Williams, Brendan Falk, Chester Ramey, Dj Walker-Morgan, Jacob Maine, James Coglan, Michael Dwan, and Steve Klabnik for reviewing drafts.</p>
 <iframe class="github-button" src="https://ghbtns.com/github-btn.html?user=cli-guidelines&repo=cli-guidelines&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
 <p><a href="https://discord.gg/EbAW5rUCkE">Join us on Discord</a> if you want to discuss the guide or CLI design.</p>
-<h2 id="foreword">Foreword</h2>
+<h2 id="foreword">はしがき</h2>
 <p>In the 1980s, if you wanted a personal computer to do something for you, you needed to know what to type when confronted with <code>C:\&gt;</code> or <code>~$</code>.
 Help came in the form of thick, spiral-bound manuals.
 Error messages were opaque.
@@ -130,7 +131,7 @@ And there’s been a proliferation of <code>git</code>-like multi-tool commands.
 Commands within commands, and high-level commands that perform entire workflows rather than atomic functions.</p>
 <p>Inspired by traditional UNIX philosophy, driven by an interest in encouraging a more delightful and accessible CLI environment, and guided by our experiences as programmers, we decided it was time to revisit the best practices and design principles for building command-line programs.</p>
 <p>Long live the command line!</p>
-<h2 id="introduction">Introduction</h2>
+<h2 id="introduction">序論</h2>
 <p>This document covers both high-level design philosophy, and concrete guidelines.
 It’s heavier on the guidelines because our philosophy as practitioners is not to philosophize too much.
 We believe in learning by example, so we’ve provided plenty of those.</p>
@@ -147,7 +148,7 @@ Full-screen programs are niche projects—very few of us will ever be in the pos
 <li>If you are designing an immersive, full-screen CLI port of Minecraft, this guide isn’t for you.
 (But we can’t wait to see it!)</li>
 </ul>
-<h2 id="philosophy">Philosophy</h2>
+<h2 id="philosophy">哲学</h2>
 <p>These are what we consider to be the fundamental principles of good CLI design.</p>
 <h3 id="human-first-design">Human-first design</h3>
 <p>Traditionally, UNIX commands were written under the assumption they were going to be used primarily by other programs.
@@ -245,7 +246,7 @@ Do so with intention and clarity of purpose.</p>
 <blockquote>
 <p>“Abandon a standard when it is demonstrably harmful to productivity or user satisfaction.” — Jef Raskin, <a href="https://en.wikipedia.org/wiki/The_Humane_Interface">The Humane Interface</a></p>
 </blockquote>
-<h2 id="guidelines">Guidelines</h2>
+<h2 id="guidelines">ガイドライン</h2>
 <p>This is a collection of specific things you can do to make your command-line program better.</p>
 <p>The first section contains the essential things you need to follow.
 Get these wrong, and your program will be either hard to use or a bad CLI citizen.</p>
@@ -965,7 +966,7 @@ Reach out and ask people how they’re using your tool.
 Encourage feedback and feature requests in your docs and repos, and try to draw out more context from those who submit feedback.</li>
 </ul>
 <p><em>Further reading: <a href="https://opensource.guide/metrics/">Open Source Metrics</a></em></p>
-<h2 id="further-reading">Further reading</h2>
+<h2 id="参考文献">参考文献</h2>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/The_Unix_Programming_Environment">The Unix Programming Environment</a>, Brian W. Kernighan and Rob Pike</li>
 <li><a href="https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap12.html">POSIX Utility Conventions</a></li>
