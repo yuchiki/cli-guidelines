@@ -1,6 +1,9 @@
+# 訳者前置き
+
+
 # Command Line Interface Guidelines
 
-An [open-source](https://github.com/cli-guidelines/cli-guidelines) guide to help you write better command-line programs, taking traditional UNIX principles and updating them for the modern day.  
+An [open-source](https://github.com/cli-guidelines/cli-guidelines) guide to help you write better command-line programs, taking traditional UNIX principles and updating them for the modern day.
 
 ## Authors {#authors}
 
@@ -616,8 +619,8 @@ $ yubikey-agent -setup
 🔐 The PIN is up to 8 numbers, letters, or symbols. Not just numbers!
 ❌ The key will be lost if the PIN and PUK are locked after 3 incorrect tries.
 
-Choose a new PIN/PUK: 
-Repeat the PIN/PUK: 
+Choose a new PIN/PUK:
+Repeat the PIN/PUK:
 
 🧪 Retriculating splines …
 
@@ -844,7 +847,7 @@ If you have several tools that are very closely related, you can make them easie
 They’re useful for sharing stuff—global flags, help text, configuration, storage mechanisms.
 
 **Be consistent across subcommands.**
-Use the same flag names for the same things, have similar output formatting, etc. 
+Use the same flag names for the same things, have similar output formatting, etc.
 
 **Use consistent names for multiple levels of subcommand.**
 If a complex piece of software has lots of objects and operations that can be performed on those objects, it is a common pattern to use two levels of subcommand for this, where one is a noun and one is a verb.
